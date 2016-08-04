@@ -15,6 +15,7 @@ Complete the [GitHub HelloWorld tutorial](https://guides.github.com/activities/h
 ##### Ex : Clone HelloWorld repo
 
 * Install [SourceTree](https://www.sourcetreeapp.com/) on your Computer. <br>
+
   > SourceTree comes with Git and a GUI for Git.
 * Use SourceTee to clone the HelloWorld repo you created in the previous exercise.
 * Do some Git stuff on your clone. e.g. 
@@ -28,7 +29,8 @@ Complete the [GitHub HelloWorld tutorial](https://guides.github.com/activities/h
 
 * Fork this repo to your GitHub account.
 * Clone the fork onto your Computer.
-* Add a text file `{YourName}.txt` to the `users` folder e.g. `users/JayYong.txt`. Add some content to the file. Commit the changes.
+* Add a text file `{YourName}.txt` to the `users` folder e.g. `users/JayYong.txt`. Add some content to the file. 
+  Commit the changes. Suggested commit message `Added {YourName}.txt`
 * Push the commit to your fork.
 * Create a PR from your fork to this repo. The PR name should be `Added YourFileName.txt` e.g. `Added JayYong.txt`.
 * Wait for the PR to be merged by the repo owner.

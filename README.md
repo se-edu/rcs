@@ -9,32 +9,39 @@ Suggested Git learning sequence:
 
 * [Git overview video](http://www.youtube.com/watch?v=v40b3ExbM0c): 
   First, watch this to get a quick overview of Git (for beginners and intermediate users)  
-* [Git demo](http://www.youtube.com/watch?v=Y9XZQO1n_7c&feature=youtu.be&t=1m33s): Next, watch this short Git demo from 
-  C0dePorn that shows some basic Git commands in action. If the video above was too abstract for you, 
-  this view will show you some concrete Git commands in action. This video also describes how to install Git.
 * [Try Git](https://try.github.io): Now, try this online Git simulation + tutorial to learn Git basics hands-on
-* [Git commands tutorial](https://www.atlassian.com/git/tutorial/git-basics): 
-  (from Atlassian) - If you didn’t like the simulation above, try this tutorial instead.
+* Install [SourceTree](https://www.sourcetreeapp.com/) on your Computer.
+
+  > SourceTree comes with Git and a GUI for Git.
+* [Git commands tutorial](https://www.atlassian.com/git/tutorial/git-basics):
+   Follow [this tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository) try git commands
+   for real.
+
+   > Tip: [This](https://confluence.atlassian.com/sourcetreekb/using-terminal-in-sourcetree-781398580.html)
+   is how you open a Git command line window from SourceTree
 * [The Pro Git Book](http://git-scm.com/book): An online version of probably the
   most popular book on Git. Use this as a reference to learn Git usage in more detail.
 * Once you know the basic terminology, try a web search to find how to perform and Git task.<br>
-  e.g. [how to undo a Git commit](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things) 
+  e.g. [How to undo a Git commit](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
 
 # Learning Outcomes
 
 ### Create a Pull Request online `[LO-PrOnline]`
+Learn the concept of a Pull Request (PR) that is a very popular mechanism for adding code to
+an existing code repository.
 
 ##### Ex : Do GitHub HelloWorld Tutorial
 
-Complete the [GitHub HelloWorld tutorial](https://guides.github.com/activities/hello-world/). 
+> This exercise does not require any Git knowledge
+
+Complete the [GitHub HelloWorld tutorial](https://guides.github.com/activities/hello-world/).
 
 ### Clone a repo `[LO-Clone]`
 
 ##### Ex : Clone HelloWorld repo
 
-* Install [SourceTree](https://www.sourcetreeapp.com/) on your Computer. <br>
+* Learn some Git basics by following the [Git learning resources given above](#learning-resources).
 
-  > SourceTree comes with Git and a GUI for Git.
 * Use SourceTee to clone the HelloWorld repo you created in the previous exercise.
 * Do some Git stuff on your clone. e.g. 
   * Edit some files in the repo, `stage` the changes, and a `commit`.

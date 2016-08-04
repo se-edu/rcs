@@ -1,8 +1,26 @@
-# Getting Started With Rivision Control Software
+# Getting Started With Revision Control Software
+
 This GitHub repo is a resource for Software Engineering students to get started with Rivision Control Software, 
 specifically, Git. We also cover some GitHub concepts.
 
-#Learning Outcomes
+#Learning Resources
+
+Suggested Git learning sequence:
+
+* [Git overview video](http://www.youtube.com/watch?v=v40b3ExbM0c): 
+  First, watch this to get a quick overview of Git (for beginners and intermediate users)  
+* [Git demo](http://www.youtube.com/watch?v=Y9XZQO1n_7c&feature=youtu.be&t=1m33s): Next, watch this short Git demo from 
+  C0dePorn that shows some basic Git commands in action. If the video above was too abstract for you, 
+  this view will show you some concrete Git commands in action. This video also describes how to install Git.
+* [Try Git](https://try.github.io): Now, try this online Git simulation + tutorial to learn Git basics hands-on
+* [Git commands tutorial](https://www.atlassian.com/git/tutorial/git-basics): 
+  (from Atlassian) - If you didn’t like the simulation above, try this tutorial instead.
+* [The Pro Git Book](http://git-scm.com/book): An online version of probably the
+  most popular book on Git. Use this as a reference to learn Git usage in more detail.
+* Once you know the basic terminology, try a web search to find how to perform and Git task.<br>
+  e.g. [how to undo a Git commit](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things) 
+
+# Learning Outcomes
 
 ### Create a Pull Request online `[LO-PrOnline]`
 

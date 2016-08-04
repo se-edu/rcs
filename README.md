@@ -73,7 +73,9 @@ Complete the [GitHub HelloWorld tutorial](https://guides.github.com/activities/h
 * Push the branch to your fork.
 * Go to your fork on GitHub and create a PR for your new branch against the master branch of this repo.
   * PR name: Copy paste the name of the issue you created earlier, including the issue number. <br>
-    e.g. `Additions to JayYong.txt (#123)`
+    e.g. `Additions to JayYong.txt #123`
+
+    ![exmaple PR](/images/PrGithubFlow.png)
   * In the PR description, include `Fixes #{issue_number}` e.g. `Fixes #123` 
     Reason for the above: It instructs GitHub to close the issue automatically whe your PR is merged.
   

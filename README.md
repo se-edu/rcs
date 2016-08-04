@@ -75,7 +75,7 @@ Complete the [GitHub HelloWorld tutorial](https://guides.github.com/activities/h
   * PR name: Copy paste the name of the issue you created earlier, including the issue number. <br>
     e.g. `Additions to JayYong.txt #123`
 
-    ![exmaple PR](/images/PrGithubFlow.png)
+    > ![exmaple PR](/images/PrGithubFlow.png)
   * In the PR description, include `Fixes #{issue_number}` e.g. `Fixes #123` 
     Reason for the above: It instructs GitHub to close the issue automatically whe your PR is merged.
   

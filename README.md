@@ -76,6 +76,6 @@ Complete the [GitHub HelloWorld tutorial](https://guides.github.com/activities/h
     e.g. `Additions to JayYong.txt #123`
 
     > ![exmaple PR](/images/PrGithubFlow.png)
-  * In the PR description, include `Fixes #{issue_number}` e.g. `Fixes #123` 
+  * In the PR description, include `Fixes #{issue_number}` e.g. `Fixes #123`<br>
     Reason for the above: It instructs GitHub to close the issue automatically whe your PR is merged.
   

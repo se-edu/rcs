@@ -27,27 +27,28 @@ specifically, Git. We also cover some GitHub concepts.
 
 # Learning Outcomes
 
-### Create a Pull Request online `[LO-PrOnline]`
-Learn the concept of a Pull Request (PR) that is a very popular mechanism for adding code to
-an existing code repository.
+### Use Git on a local repo `[LO-GitLocal]`
 
-##### Ex : GitHub HelloWorld tutorial
+* Learn some Git basics by following the [Git learning resources given above](#learning-resources).
+* Create a local repo with some dummy content.
+* Do some Git stuff on your repo. e.g. 
+  * Edit some files in the repo, `stage` the changes, and a `commit`.
+  * Add a new file, stage it, and commit.  
 
-> This exercise does not require any Git knowledge
 
-Complete the [GitHub HelloWorld tutorial](https://guides.github.com/activities/hello-world/).
+### Use Git with a remote repo `[LO-GitRemote]`
 
-### Clone a repo `[LO-Clone]`
+Prerequisite: `[LO-GitLocal]`
 
 ##### Ex : Clone HelloWorld repo
 
-* Learn some Git basics by following the [Git learning resources given above](#learning-resources).
-
-* Use SourceTee to clone the HelloWorld repo you created in the previous exercise.
-* Do some Git stuff on your clone. e.g. 
-  * Edit some files in the repo, `stage` the changes, and a `commit`.
-  * Add a new file, stage it, and commit.  
-  * `push` the new commits to your repo on GitHub.
+* Complete the [GitHub HelloWorld tutorial](https://guides.github.com/activities/hello-world/).
+* Use SourceTee to clone the HelloWorld repo you created in the previous step.
+* Clone the same remote repo to another location of your computer 
+  (let's call the two clones `clone1` and `clone2`).
+* Do some commits in the `clone1`.  
+* `push` the new commits to your remote repo on GitHub.
+* `pull` the new commits to your `clone2`.
 
 ### Create a PR from fork `[LO-PrFork]`
 

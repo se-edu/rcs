@@ -5,24 +5,25 @@ specifically, Git. We also cover some GitHub concepts.
 
 #Learning Resources
 
-Suggested Git learning sequence:
+##### Suggested Git learning sequence
 
-* [Git overview video](http://www.youtube.com/watch?v=v40b3ExbM0c): 
+1. [Git overview video](http://www.youtube.com/watch?v=v40b3ExbM0c): 
   First, watch this to get a quick overview of Git (for beginners and intermediate users)  
-* [Try Git](https://try.github.io): Now, try this online Git simulation + tutorial to learn Git basics hands-on
-* Install [SourceTree](https://www.sourcetreeapp.com/) on your Computer.
+2. [Try Git](https://try.github.io): Now, try this online Git simulation + tutorial to learn Git basics hands-on
+3. Install [SourceTree](https://www.sourcetreeapp.com/) on your Computer.
 
-  > SourceTree comes with Git and a GUI for Git.
-* [Git commands tutorial](https://www.atlassian.com/git/tutorial/git-basics):
-   Follow [this tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository) try git commands
+   > SourceTree comes with Git and a GUI for Git.
+4. Follow [this tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository) to try git commands
    for real.
 
    > Tip: [This](https://confluence.atlassian.com/sourcetreekb/using-terminal-in-sourcetree-781398580.html)
    is how you open a Git command line window from SourceTree
-* [The Pro Git Book](http://git-scm.com/book): An online version of probably the
-  most popular book on Git. Use this as a reference to learn Git usage in more detail.
-* Once you know the basic terminology, try a web search to find how to perform and Git task.<br>
-  e.g. [How to undo a Git commit](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
+5. Now you should be ready to start using Git. Here are two more resources to keep in mind:
+   * [The Pro Git Book](http://git-scm.com/book): An online version of probably the
+     most popular book on Git.<br>
+     Use it as a reference when you want to learn a Git feature in more detail.
+   * Use web search to find how to perform a Git task.<br>
+     e.g. [How to undo a Git commit](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
 
 # Learning Outcomes
 
@@ -30,7 +31,7 @@ Suggested Git learning sequence:
 Learn the concept of a Pull Request (PR) that is a very popular mechanism for adding code to
 an existing code repository.
 
-##### Ex : Do GitHub HelloWorld Tutorial
+##### Ex : GitHub HelloWorld tutorial
 
 > This exercise does not require any Git knowledge
 

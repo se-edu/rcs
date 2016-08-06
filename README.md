@@ -1,15 +1,16 @@
 # Getting Started With Revision Control Software
 
 This GitHub repo is a resource for Software Engineering students to get started with Rivision Control Software, 
-specifically, Git. We also cover some GitHub concepts.
+specifically, Git. It also covers some GitHub concepts.
 
-#Learning Resources
+# Learning Resources
 
 ##### Suggested Git learning sequence
 
 1. [Git overview video](http://www.youtube.com/watch?v=v40b3ExbM0c): 
-  First, watch this to get a quick overview of Git (for beginners and intermediate users)  
-2. [Try Git](https://try.github.io): Now, try this online Git simulation + tutorial to learn Git basics hands-on
+   First, watch this to get a quick overview of Git.  
+2. [Try Git](https://try.github.io): Now, try this online Git simulation + tutorial 
+   to learn Git basics hands-on.
 3. Install [SourceTree](https://www.sourcetreeapp.com/) on your Computer.
 
    > SourceTree comes with Git and a GUI for Git.
@@ -54,7 +55,7 @@ Prerequisite: `[LO-GitLocal]`
 
 #### Ex: Create PR against this repo
 
-* Fork this repo to your GitHub account.
+* [Fork](https://help.github.com/articles/fork-a-repo/) this repo to your GitHub account.
 * Clone the fork onto your Computer.
 * Add a text file `{YourName}.txt` to the `users` folder e.g. `users/JayYong.txt`. Add some content to the file. 
   Commit the changes. Suggested commit message `Added {YourName}.txt`

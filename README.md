@@ -72,18 +72,24 @@ Prerequisite: `[LO-GitLocal]`
 
 #### Ex: Create a PR using GitHub Flow
 
-* Submit an issue in this repo's issue tracker. Issue name `Add to {YourFileName.txt}` 
-  e.g. `Add to JayYong.txt`
-* Create a branch in your local clone of this repo with the name `add-to-{YourFileName-txt}` 
-  e.g. `add-to-JayYong-txt`
+* Submit an issue in this repo's issue tracker. Issue name `Add {YourFullName-Intro.md}` 
+  e.g. `Add JayYong-Intro.md`
+* Create a branch in your local clone of this repo with the name `add-{YourFullName-Intro-md}` 
+  e.g. `add-JayYong-Intro-md`
 * Switch to the new branch.
-* Do some modifications to your text file (in your local repo) and commit the changes in the new branch.
+* Create a new file named `users/YourFullName-Intro-md` (e.g. `users/JayYong-Intro-md`) in your local repo.<br>
+  Add some info about yourself to the file and commit the changes in the new branch.
+
+  > When adding content to your file, you can use plain text or 
+  [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/) format in your file.
+  
 * Push the branch to your fork.
 * Go to your fork on GitHub and create a PR for your new branch against the master branch of this repo.
   * PR name: Copy paste the name of the issue you created earlier, including the issue number. <br>
-    e.g. `Add to JayYong.txt #123`
+    e.g. `Add JayYong-Intro.md #123`
 
     > ![exmaple PR](/images/PrGithubFlow.png)
+    
   * In the PR description, include `Fixes #{issue_number}` e.g. `Fixes #123`<br>
     Reason for the above: It instructs GitHub to close the issue automatically when your PR is merged.
   

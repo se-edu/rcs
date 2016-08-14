@@ -77,7 +77,7 @@ Prerequisite: `[LO-GitLocal]`
 * Create a branch in your local clone of this repo with the name `add-{YourFullName-Intro-md}` 
   e.g. `add-JayYong-Intro-md`
 * Switch to the new branch.
-* Create a new file named `users/YourFullName-Intro-md` (e.g. `users/JayYong-Intro-md`) in your local repo.<br>
+* Create a new file named `users/YourFullName-Intro.md` (e.g. `users/JayYong-Intro.md`) in your local repo.<br>
   Add some info about yourself to the file and commit the changes in the new branch.
 
   > When adding content to your file, you can use plain text or 
@@ -92,6 +92,7 @@ Prerequisite: `[LO-GitLocal]`
     
   * In the PR description, include `Fixes #{issue_number}` e.g. `Fixes #123`<br>
     Reason for the above: It instructs GitHub to close the issue automatically when your PR is merged.
+* When the PR is ready, add a comment with the text `Ready for review`.
   
 -----------------------------------------------------------------------------------------------------
 # Contributors

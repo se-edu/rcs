@@ -1,6 +1,6 @@
 # Getting Started With Revision Control Software
 
-This GitHub repo is a resource for Software Engineering students to get started with Rivision Control Software, 
+This GitHub repo is a resource for Software Engineering students to get started with Revision Control Software,
 specifically, Git. It also covers some GitHub concepts.
 
 # Learning Resources
@@ -44,7 +44,7 @@ Prerequisite: `[LO-GitLocal]`
 ##### Ex : Clone HelloWorld repo
 
 * Complete the [GitHub HelloWorld tutorial](https://guides.github.com/activities/hello-world/).
-* Use SourceTee to clone the HelloWorld repo you created in the previous step.
+* Use SourceTree to clone the HelloWorld repo you created in the previous step.
 * Clone the same remote repo to another location of your computer 
   (let's call the two clones `clone1` and `clone2`).
 * Do some commits in the `clone1`.  
@@ -60,7 +60,7 @@ Prerequisite: `[LO-GitLocal]`
 * Add a text file `{YourName}.txt` to the `users` folder e.g. `users/JayYong.txt`. Add some content to the file. 
   Commit the changes. Suggested commit message `Add {YourName}.txt` 
   
-  >It's common practice to write commit message in emperative mood.<br>
+  >It's common practice to write commit message in imperative mood.<br>
   e.g. `Add abc.txt` rather than `Added abc.txt` or `Adding abc.txt`.
 * Push the commit to your fork.
 * Create a PR from your fork to this repo. The PR name should be `Added YourFileName.txt` e.g. `Added JayYong.txt`.
@@ -83,5 +83,5 @@ Prerequisite: `[LO-GitLocal]`
 
     > ![exmaple PR](/images/PrGithubFlow.png)
   * In the PR description, include `Fixes #{issue_number}` e.g. `Fixes #123`<br>
-    Reason for the above: It instructs GitHub to close the issue automatically whe your PR is merged.
+    Reason for the above: It instructs GitHub to close the issue automatically when your PR is merged.
   

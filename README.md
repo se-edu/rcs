@@ -3,6 +3,7 @@
 This GitHub repo is a resource for Software Engineering students to get started with Revision Control Software,
 specifically, Git. It also covers some GitHub concepts.
 
+-----------------------------------------------------------------------------------------------------
 # Learning Resources
 
 ##### Suggested Git learning sequence
@@ -26,6 +27,7 @@ specifically, Git. It also covers some GitHub concepts.
    * Use web search to find how to perform a Git task.<br>
      e.g. [How to undo a Git commit](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
 
+-----------------------------------------------------------------------------------------------------
 # Learning Outcomes
 
 ### Use Git on a local repo `[LO-GitLocal]`
@@ -85,3 +87,15 @@ Prerequisite: `[LO-GitLocal]`
   * In the PR description, include `Fixes #{issue_number}` e.g. `Fixes #123`<br>
     Reason for the above: It instructs GitHub to close the issue automatically when your PR is merged.
   
+-----------------------------------------------------------------------------------------------------
+# Contributors
+
+* [Damith C. Rajapakse](http://www.comp.nus.edu.sg/~damithch) : Project Advisor
+
+-----------------------------------------------------------------------------------------------------
+# Contact Us
+
+* **Bug reports, Suggestions** : Post in our [issue tracker](https://github.com/se-edu/rcs/issues)
+  if you noticed bugs or have suggestions on how to improve.
+* **Contributing** : We welcome pull requests. Follow the process described [here](https://github.com/oss-generic/process)
+

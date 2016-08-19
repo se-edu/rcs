@@ -65,7 +65,7 @@ Prerequisite: `[LO-GitLocal]`
   >It's common practice to write commit message in imperative mood.<br>
   e.g. `Add abc.txt` rather than `Added abc.txt` or `Adding abc.txt`.
 * Push the commit to your fork.
-* Create a PR from your fork to this repo. The PR name should be `Added YourFileName` e.g. `Added JayYong.txt`.
+* Create a PR from your fork to this repo. The PR name should be `Add YourFileName` e.g. `Add JayYong.txt`.
 * When the PR is ready, add a comment with the text `Ready for review`.
 
 ### Create a PR using GitHub Flow `[LO-PrGitHubFlow]`

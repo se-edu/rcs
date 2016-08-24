@@ -1,0 +1,3 @@
+Louie'); DROP TABLE users; --
+
+-- Also this entire exercise is damn lame lol.

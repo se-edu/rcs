@@ -1,0 +1,1 @@
+The top 10 binary numbers are 0 and 1.

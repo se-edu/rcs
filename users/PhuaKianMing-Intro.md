@@ -1,0 +1,1 @@
+My name is Phua Kian Ming. I am a 3rd year Mechanical Engineering student. I'm taking up CS2103 in a bid to complete my minor in computer science.

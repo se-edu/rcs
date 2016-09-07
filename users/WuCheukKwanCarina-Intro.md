@@ -1,0 +1,1 @@
+I am Wu Cheuk Kwan Carina. I am an exchange student from Hong Kong. I am studying in year 3.

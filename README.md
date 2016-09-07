@@ -93,7 +93,48 @@ Prerequisite: `[LO-GitLocal]`
   * In the PR description, include `Fixes #{issue_number}` e.g. `Fixes #123`<br>
     Reason for the above: It instructs GitHub to close the issue automatically when your PR is merged.
 * When the PR is ready, add a comment with the text `Ready for review`.
-  
+
+### Follow the centralized workflow [`LO-CentralizedWorkflow`]
+
+When working as a team, you need to be able to write code in parallel and merge the code later.
+ There are different workflows you can adopt for this purpose.
+ The [centralized workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow)
+ is one of the simplest.
+
+#### Exercise: merge commits using centralized workflow
+
+This is a team exercise.
+
+* These steps are to be done by only one member of the team.
+  * Fork this repo to your account. Let's call it the 'team fork'
+  * Give other team members write permissions to your fork.
+
+* These steps are to be done by all members.
+  * Clone the team fork to your computer.
+  * While staying in the `master`, add a new file to the repo with the name
+  `/centralized/{YourName}.txt`. e.g. `centralized/JamesYong.txt`
+  * Add some content into the file and commit it.
+
+* Now follow the centralized workflow (see link given above) to push your changes to the
+  team fork.
+  * You can ignore references to SVN (in the workflow description). SVN is an older RCS tool.
+  * As team member is editing a different file, there should not be any merge conflicts.
+
+### Resolve merge conflicts [`LO-MergeConflicts`]
+
+This is a team exercise.
+
+Prerequisites: `LO-CentralizedWorkflow`
+
+* [Only one member] While staying in the `master` branch,
+  create a file `/centralized/{Team-ID}.txt`, commit, and push to the team fork.
+* [All members] pull the new commit, add their own name as the first line of the file,
+  and push to the team fork.
+  * The above is likely to create merge conflicts. Resolving them will give you an opportunity
+    to learn how to resolve merge conflicts. More instructions about resolving conflicts
+    can be found in the [centralized workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow)
+
+
 -----------------------------------------------------------------------------------------------------
 # Contributors
 

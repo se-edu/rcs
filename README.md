@@ -106,11 +106,11 @@ When working as a team, you need to be able to write code in parallel and merge 
 This is a team exercise.
 
 * These steps are to be done by only one member of the team.
-  * Fork this repo to your account. Let's call it the 'team fork'
-  * Give other team members write permissions to your fork.
+  * Fork this repo to your account, if you haven't done that already. Let's call it the 'team fork'
+  * [Give other team members push access to your fork](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/).
 
 * These steps are to be done by all members.
-  * Clone the team fork to your computer.
+  * Clone the *team fork* to your computer.
   * While staying in the `master`, add a new file to the repo with the name
   `/centralized/{YourName}.txt`. e.g. `centralized/JamesYong.txt`
   * Add some content into the file and commit it.
@@ -118,6 +118,7 @@ This is a team exercise.
 * Now follow the centralized workflow (see link given above) to push your changes to the
   team fork.
   * You can ignore references to SVN (in the workflow description). SVN is an older RCS tool.
+    You can also ignore the bit about setting up the repo. As you are using a fork, there is no need to set it up.
   * As team member is editing a different file, there should not be any merge conflicts.
 
 ### Resolve merge conflicts [`LO-MergeConflicts`]
@@ -128,9 +129,10 @@ Prerequisites: `LO-CentralizedWorkflow`
 
 * [Only one member] While staying in the `master` branch,
   create a file `/centralized/{Team-ID}.txt`, commit, and push to the team fork.
-* [All members] pull the new commit, add their own name as the first line of the file,
-  and push to the team fork.
-  * The above is likely to create merge conflicts. Resolving them will give you an opportunity
+* [All members] 
+  * Pull the master branch to your clone, add your own name as the first line of the file,
+    and commit. Wait for other members to finish this step.
+  * Now try to push to the team fork. This is likely to create merge conflicts. Resolving them will give you an opportunity
     to learn how to resolve merge conflicts. More instructions about resolving conflicts
     can be found in the [centralized workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow)
 

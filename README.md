@@ -141,11 +141,12 @@ Prerequisites: `LO-CentralizedWorkflow`
 
 This is a team exercise.
 
-* [Only one member]
+[Step 1: Only one member]
   * Create a GitHub organization for your team.
   * Fork a repo to that org: you can fork this repo or any other repo that you team members were previously working in.
-  * Add your team members as contributors to that fork. Let's call it the *team repo*.
-* [All members]
+  * Add your team members as collaborators to that fork. Let's call it the *team repo*.
+
+[Step 2: All members]
   * If you have a clone of the team repo on your computer (or a clone of any upstream version of the repo), add the
     team repo as a `remote` of that clone. Otherwise clone the team repo to your computer.
 

@@ -151,12 +151,12 @@ This is a team exercise.
     team repo as a `remote` of that clone. Otherwise clone the team repo to your computer.
 
     > **Adding a remote using SourceTree**
-      1. Choose `Repository > Repository Settings` from the menu.
-      2. Click `Add`.
-      3. Copy-paste the team repo URL into the `URL/Path` box. <br>
-         e.g. `https://github.com/se-edu/rcs.git` (Note the `.git` at the end)
-      4. Give a suitable name in the `Remote name` box. e.g. `teamrepo`
-      4. Click `OK`.
+    >  1. Choose `Repository > Repository Settings` from the menu.
+    >  2. Click `Add`.
+    >  3. Copy-paste the team repo URL into the `URL/Path` box. <br>
+    >     e.g. `https://github.com/se-edu/rcs.git` (Note the `.git` at the end)
+    >  4. Give a suitable name in the `Remote name` box. e.g. `teamrepo`
+    >  4. Click `OK`.
 
   * Now, each member add a feature to the code base using the
    [feature branch workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)

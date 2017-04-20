@@ -1,0 +1,1 @@
+![Image of Yaktocat](http://www.fullredneck.com/wp-content/uploads/2016/04/Funny-Russia-Meme-20.jpg)
